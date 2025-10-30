@@ -14,8 +14,7 @@ spec:
     spec:
       containers:
         - name: php-webapp
-          # Ini nama image-mu. Sudah benar
-          image: ghcr.io/fanyanyam/fanyaphp-app/myphp-app:latest
+          image: ghcr.io/fanyanyam/fanyaphp-app/fanyaphp-app:latest
           ports:
             - containerPort: 80
 ---
@@ -29,4 +28,5 @@ spec:
     app: php-webapp
   ports:
     - port: 80
+
       targetPort: 80
