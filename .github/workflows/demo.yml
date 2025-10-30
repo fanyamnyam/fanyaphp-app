@@ -16,7 +16,7 @@ jobs:
 
       #2. Build Docker image
       - name: Build Docker image
-        run: docker build -t ghcr.io/fanyanyam/fanyaphp-app/myphp-app:latest .
+        run: docker build -t ghcr.io/fanyanyam/fanyaphp-app/fanyaphp-app:latest .
 
       #3. Login ke GitHub Container Registry
       - name: Login to GHCR
