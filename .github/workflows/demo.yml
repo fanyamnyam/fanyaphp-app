@@ -28,4 +28,4 @@ jobs:
 
       #4. Push image ke GHCR
       - name: Push Docker image
-        run: docker push ghcr.io/fanyanyam/fanyaphp-app/fanyaphp-app:latest .
+        run: docker push ghcr.io/fanyanyam/fanyaphp-app/fanyaphp-app:latest 
